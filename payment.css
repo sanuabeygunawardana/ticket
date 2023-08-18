@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    
+}
+
+body{ background-color: #0000009c;}
+
+
+/*navigation bar*/
+
+.navbar{
+    background-color: rgb(110, 60, 60);
+    width: 100%;
+    margin: auto;
+    display: flex;
+
+}
+
+.navbar h1{
+    padding: 50px 300px;
+    padding-bottom: 30px;
+    color: yellowgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 60px 50px;
+    margin-top: -5px;
+    margin-bottom: -70px;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-weight: 0;
+}    
+
+.navbar ul i{
+    justify-content: space-between;
+    margin: 10px;
+}
+
+li a:hover{
+    background: transparent;
+    transition: 0.5s;
+}
+
+
+.navbar a:hover{
+    color: rgb(0, 0, 0);
+
+}
+
+/*navigation bar ends*/
+
+.context{
+    background-image: url(images/Sea-Turtle-Exhibit7.jpg);
+    height: 150vh;
+    width: auto;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-attachment:  fixed;
+
+}
+
+.context sidenav{
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    float: left;
+    
+}
+
+.sidenav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+   
+    
+}
+
+.sidenav ul li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: small;
+    color: rgb(235, 103, 103);
+    
+}  
+
+.sidenav i{
+    color: rgb(189, 153, 153);
+}
+
+.sidenav ul li a:hover{
+    transition: 0.5s;
+    background: transparent;
+    color: rgb(61, 55, 57);
+    
+}
+
+form{
+    width: 500px;
+    height: 50vh;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 8px black;
+    border-radius: 20px;
+    margin-left: 100px;
+    
+}
+
+.input-group{
+    margin-bottom: 15px;
+    margin: 10px 0px;
+    width: 90%;
+
+}
+
+.half-width{
+    float: left;
+    width: 15%;
+    box-sizing: border-box;
+    
+}
+
+.half-width-1{
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
+    margin-right: 40%;
+}
+
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: aqua;
+    
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 3px solid blue;
+    border-radius: 4px;
+}
+
+button{
+    display: block;
+    width: 40%;
+    padding: 10px;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 28% ;
+    margin-top: 30%;
+}
+
+button:hover{
+    background-color: green;
+}
+
+table{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 70%;
+    float: left;
+    margin-top: -65%;
+    margin-right: 0%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    color: white;
+    
+}
+
+.table-1{
+    margin-top: 20%;
+    margin-right: 80%;
+    color: blue;
+    border-color: darkgreen;
+    background-color: violet;
+}
+
+.table-1 table{
+    background-color: rgba(191, 206, 23, 0.637);
+}
+
+.table-1 thead th{
+    padding: 10px;
+
+}

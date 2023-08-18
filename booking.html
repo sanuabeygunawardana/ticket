@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>Book now!</title>
+        <link rel="stylesheet" href="booking.css" type="text/css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="navbar">
+
+           <ul>
+             <li><a href="home.html"><i class="fa-solid fa-house"></i>HOME</a></li>
+           </ul>
+        
+        <h1>BUY TICKETS</h1>
+
+    </div>
+<section class="content">
+    <div class="sidenav">
+        <ul>
+            <li><a href="booking.html">Ticket</a></li><i class="fa-solid fa-chevron-right"></i>
+            <li><a href="Detailpage.html">Details</a></li><i class="fa-solid fa-chevron-right"></i>
+            <li><a href="payment.html">Payment</a></li><i class="fa-solid fa-chevron-right"></i>
+            <li><a href="confirm.html">Confirmation</a></li>
+            
+        </ul>
+    </div>
+
+
+    <div class="container-form">
+        <form id="dataForm" action="detailpage.js" method="GET">
+<legend>
+        <h2 class="tick">Book Now</h2>
+
+        <div class="form-field-1">
+
+            <h3>Date</h3>
+            <input type="date" id="date" name="date">
+
+        </div>
+
+        <div class="form-field-2">
+
+            <h3>Time</h3>
+            <select name="select" id="time">
+                <option value="1">7.00a.m -8.00a.m</option>
+                <option value="2">8.00a.m -9.00a.m</option>
+                <option value="3">9.00a.m -10.00a.m</option>
+                <option value="4">10.00a.m -11.00a.m (peak hours)</option>
+                <option value="5">11.00a.m -12.00p.m</option>
+                <option value="6">12.00p.m- 13.00p.m</option>
+                <option value="7">13.00p.m- 14.00p.m</option>
+                <option value="8">14.00p.m- 15.00p.m</option>
+                <option value="9">15.00p.m- 16.00p.m</option>
+                <option value="10">16.00p.m- 17.00p.m</option>
+                <option value="11">17.00p.m- 18.00p.m</option>
+            </select>
+
+        </div>
+
+        <div class="form-field-3">
+
+            <h3>How many people :</h3><br>
+            <h5>SL adult</h5><input type="number" id="members1" name="SLA"><br>
+            <h5>SL child</h5><input type="number" id="members2" name="SLC"><br>
+            <h5>Foreign adult</h5><input type="number" id="members3" name="FA"><br>
+            <h5>Foreign child</h5><input type="number" id="members4" name="FC"><br>
+            <h5>Infant</h5>
+
+            <input type="number" id="members5" name="infant">
+
+        </div>
+
+       <button type="button" id="btn" onclick="AddRow()">Continue with purchase</button>
+
+        </form>
+    </legend>
+    </div>
+
+    <div class="charges">
+        <h2>Charges per person</h2>
+        <p>
+            <ul>
+                <li> one Normal hour for Foreigner Adult - 10 USD</li>
+                <li> one Peak hour for Foreigner Adult - 13 USD</li>
+                <li>one Normal hour for Foreigner Child - 5 USD</li>
+                <li>one Peak hour for Foreigner Child - 8 USD</li>
+                <li>one Normal hour for SL Adult - 4 USD</li>
+                <li>one Peak hour for SL Adult - 6 USD</li>
+                <li>one Normal hour for SL Child - 2 USD</li>
+                <li>one Peak hour for SL Child - 3 USD</li>
+                
+                
+            </ul>
+        </p>
+    </div>
+
+    <script src="detailpage.js"></script>
+
+   <script src="booking.js"></script>
+
+</section>
+</body>
+</html>

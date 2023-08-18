@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(104, 104, 200) ;
+}
+/*header starts*/
+.banner{
+    background-image: url(images/190501-green-sea-turtle-mn-1440.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: auto;
+    padding: 10px 0px;
+    display: flex;
+    background-size: cover;
+}
+    
+
+/*header ends*/
+
+/*navbar*/
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo{
+    width: 160px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 10px;
+    
+}
+
+li a:hover{
+    background: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.navbar a:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+
+/*navbar ends*/
+
+/*banner class*/
+.content{
+    width: 100%;
+    margin-top: 300px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 60px;
+    transform: translateY(-50%);
+    text-align: center;
+    
+}
+
+.content h1{
+    position: relative;    
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+button{
+    width: 200px;
+    padding: 15px;
+    margin: 300px 650px;
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button a{
+    text-decoration: none;
+}
+
+button:hover{
+    background: #a50c2b;
+    transition: o.5s;
+}
+
+button:hover{
+    color: rgb(202, 77, 77);
+}
+
+/* banner ends*/

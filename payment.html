@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="payment.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body>
+        <div class="navbar">
+               <ul>
+                 <li><a href="home.html"><i class="fa-solid fa-house"></i>HOME</a></li>
+               </ul>
+            
+            <h1>BUY TICKETS</h1>
+    
+        </div>
+    <section class="context">
+        <div class="sidenav">
+            <ul>
+                <li><a href="booking.html">Ticket</a></li><i class="fa-solid fa-chevron-right"></i>
+                <li><a href="Detailpage.html">Details</a></li><i class="fa-solid fa-chevron-right"></i>
+                <li><a href="payment.html">Payment</a></li><i class="fa-solid fa-chevron-right"></i>
+                <li><a href="confirm.html">Confirmation</a></li>
+                
+            </ul>
+        </div>
+
+
+        <form id="paymentForm" action="#" method="post">
+
+            <div class="input-group">
+                <label for="cardNumber">Card Number</label>
+                <input type="text" id="cardNumber" name="cc-number" autocomplete="cc-number" placeholder="4143 9511 4002 6893" maxlength="19" required>
+            </div>
+
+            <div class="input-group">
+                <label for="cardName">cardName</label>
+                <input type="text" id="cardName" name="cc-name" autocomplete="cc-name" placeholder="Sanu Abeygunawardana" required>
+            </div>
+
+            <div class="input-group half-width">
+                <label for="expiry">Expiry</label>
+                <input type="text" id="expiry" name="cc-exp" autocomplete="cc-exp" placeholder="01/23" required>
+            </div>
+
+            <div class="input-group half-width-1">
+                <label for="cvc">CVC</label>
+                <input type="text" id="cvc" name="cc-csc" autocomplete="cc-csc" placeholder="123" required>
+            </div>
+
+            <button type="submit">Confirm payment</button>
+
+        </form>
+
+<div class="table-1">
+<table id="detailsTable" border="2">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Mobile Number</th>
+            <th>Email</th>
+            <th>Confirm Email</th>
+            <th>Gender</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--data here will be entered using JavaScript-->
+    </tbody>
+</table>
+</div>
+
+
+
+
+        <script src="detailpage-2.js"></script>
+        <script src="payment.js"></script>
+        <script src="detailpage.js"></script>
+        <script src="booking.js"></script>
+
+    </body>
+</html>

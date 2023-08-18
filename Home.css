@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.intro{
+    background-image: url(images/wallpapersden.com_glare-background-blur_2560x1440.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: auto;
+    padding: 100px 0px;
+    display: flex;
+    background-size: cover;
+}
+
+
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo{
+    width: 160px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 10px;
+    
+}
+
+li a:hover{
+    background: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.navbar a:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+.intro img{
+    height: auto;
+    width: 430px;
+    border-radius: 30%;
+}
+
+.intro-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.intro-text h2{
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.intro-text p{
+    color: rgb(220, 111, 111);
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.sub-data{
+    width: auto;
+    height: auto;
+    padding: 200px 0px;
+    background-color: rgb(45, 51, 45);
+}
+
+.topic{
+    color: white;
+    text-align: center;
+}
+
+.topic h2{
+    color: chartreuse;
+    text-align: left;
+    margin: 0px 40px;
+}
+
+.topic ul{
+    padding-top: 20px;
+    letter-spacing: 2px;
+    text-transform: initial;
+    font-size: 15px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.topic ul li{
+    list-style: none;
+    text-align: left;
+    padding-bottom: 13px;
+}
+
+.topic p{
+    text-align: left;
+    letter-spacing: 2px;
+    padding: 20px;
+    margin: 0px 130px;
+}
+
+button{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    padding: 10px 70px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+    margin-left: 30%;
+    margin-top: 10%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: black;
+    
+}
+
+button a{
+    text-decoration: none;
+}
+
+button a:hover{
+    color: white;
+}

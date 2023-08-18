@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    
+}
+
+body{ background-color: #0000009c;}
+
+
+/*navigation bar*/
+
+.navbar{
+    background-color: rgb(110, 60, 60);
+    width: 100%;
+    margin: auto;
+    display: flex;
+
+}
+
+.navbar h1{
+    padding: 50px 300px;
+    padding-bottom: 30px;
+    color: yellowgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    
+    
+}.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 60px 50px;
+    margin-top: -5px;
+    margin-bottom: -70px;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-weight: 0;
+}    
+
+.navbar ul i{
+    justify-content: space-between;
+    margin: 10px;
+}
+
+li a:hover{
+    background: transparent;
+    transition: 0.5s;
+}
+
+
+.navbar a:hover{
+    color: rgb(0, 0, 0);
+
+}
+   
+/*navigation bar ends*/
+
+.context{
+    background-image: url(images/Sea-Turtle-Exhibit7.jpg);
+    height: 100vh;
+    width: auto;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-attachment:  fixed;
+
+}
+
+.context sidenav{
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    float: left;
+    
+}
+
+.sidenav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+   
+    
+}
+
+.sidenav ul li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: small;
+    color: rgb(235, 103, 103);
+    
+}  
+
+.sidenav i{
+    color: rgb(189, 153, 153);
+}
+
+.sidenav ul li a:hover{
+    transition: 0.5s;
+    background: transparent;
+    color: rgb(61, 55, 57);
+    
+}
+
+.detail-form{
+    width: auto;
+    margin: 20px;
+    margin-left: 50px;
+
+}
+
+h2{
+    margin: 20px;
+    margin-left: 30px;
+    color: white;
+
+}
+
+.detail-form input{
+    border-radius: 20px;
+    border-width: 5px;
+    margin-top: 10px; 
+    width: 500px; 
+    background-color: rgba(0, 0, 0, 0.414); 
+    
+}
+
+input{
+    color: aqua;
+}
+select{
+    background-color: rgba(0, 0, 0, 0.414);
+    color: aqua;
+}
+
+.detail-form .form-2 input{
+    width: 150px;
+    color: aqua;
+}
+
+.detail-form .form-3 input{
+    width: 300px;
+    
+}
+
+.detail-form .form-4 input{
+    width: 300px;
+}
+
+.detail-form .form-5 select{
+    border-radius: 20px;
+    border-width: 5px;
+    margin-top: 10px; 
+    width: 100px; 
+}
+
+table{
+    margin-left: 70%;
+    float: left;
+    margin-top: -40%;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(252, 252, 252);
+    font-size: larger;
+    
+} 
+
+button{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    padding: 10px 70px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+    margin-left: 10%;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: pink;
+}
+
+h3{
+    color: white;
+}
